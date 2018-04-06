@@ -2,6 +2,10 @@
 
 Parse a photo CD provided by Scholastic and generate a simple PDF yearbook for your school.
 
+**Important:** You must use a photo CD provided by Scholastic.
+
+I am not affiliated with Scholastic or Scholastic Photography.
+
 ## Getting Started
 
 
@@ -39,6 +43,11 @@ This app only creates individual PDFs for each page. You'll need to take the gen
 ## TODO
 
 The number of columns on each page is hard-coded in the layout file, and I'm not super jazzed with how that all works. It'd be nice to make this easier to customize and less messy code-wise.
+
+## Made by
+
+Alex P. Gates
+<a href='ma&#105;&#108;to&#58;%61l%65%78&#112;%67&#37;6&#49;%7&#52;es%40gmai%6C&#46;%6&#51;om'>&#97;&#108;expga&#116;es&#64;gm&#97;&#105;&#108;&#46;com</a>
 
 ## Built With
 
