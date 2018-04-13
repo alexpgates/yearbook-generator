@@ -4,7 +4,11 @@ Parse a photo CD provided by Scholastic and generate a simple PDF yearbook for y
 
 **Important:** You must use a photo CD provided by Scholastic.
 
-I am not affiliated with Scholastic or Scholastic Photography.
+## Why?
+
+Instead of expensive yearbooks that only some students can afford, our PTA produce low-cost yearbooks and provides one for free to every student in our school.
+
+In previous years we generated these yearbooks using an automated InDesign work flow, which was a time consuming process. I wanted to simplify the process this year and at the same time build a re-usable took that could also benefit other schools.
 
 ## Getting Started
 
@@ -13,6 +17,7 @@ I am not affiliated with Scholastic or Scholastic Photography.
 
 - You'll need a local development environment with PHP 7.1. I recommend [Laravel Valet](https://laravel.com/docs/5.6/valet)
 - The app is built using the [Laravel PHP framework](https://github.com/laravel/) which currently requires PHP 7.1. PDF generation is handled using [Spatie](https://github.com/spatie/)'s excellent [Browsershot package](https://github.com/spatie/browsershot), which requires node 7.6.0 or higher and the Puppeteer Node library.
+- Assets are compiled with either NPM or Yarn.
 
 ### Installing
 
@@ -47,7 +52,12 @@ The number of columns on each page is hard-coded in the layout file, and I'm not
 ## Made by
 
 Alex P. Gates
+
 <a href='ma&#105;&#108;to&#58;%61l%65%78&#112;%67&#37;6&#49;%7&#52;es%40gmai%6C&#46;%6&#51;om'>&#97;&#108;expga&#116;es&#64;gm&#97;&#105;&#108;&#46;com</a>
+
+[@alexpgates](http://twitter.com/alexpgates)
+
+I am not affiliated with Scholastic or Scholastic Photography.
 
 ## Built With
 
@@ -58,4 +68,7 @@ Alex P. Gates
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+
+## I need help!
+
 
