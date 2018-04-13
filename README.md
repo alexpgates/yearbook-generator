@@ -6,9 +6,9 @@ Parse a photo CD provided by Scholastic and generate a simple PDF yearbook for y
 
 ## Why?
 
-Instead of expensive yearbooks that only some students can afford, our PTA produce low-cost yearbooks and provides one for free to every student in our school.
+Instead of expensive yearbooks that only some students can afford, our PTA produces low-cost yearbooks and provides one for free to every student in our school.
 
-In previous years we generated these yearbooks using an automated InDesign work flow, which was a time consuming process. I wanted to simplify the process this year and at the same time build a re-usable took that could also benefit other schools.
+In previous years we generated these yearbooks using an automated InDesign work flow, which was a time consuming process. This projects helps simplify the process of creating yearbooks, and it's packaged togather as a re-usable tool that could also benefit other schools.
 
 ## Getting Started
 
