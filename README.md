@@ -71,4 +71,11 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## I need help!
 
+Please get in touch! I'd be very happy to help.
+
+<a href='ma&#105;&#108;to&#58;%61l%65%78&#112;%67&#37;6&#49;%7&#52;es%40gmai%6C&#46;%6&#51;om'>&#97;&#108;expga&#116;es&#64;gm&#97;&#105;&#108;&#46;com</a>
+
+[@alexpgates](http://twitter.com/alexpgates)
+
+I admit that this looks like a bit of an undertaking if you don't have much experience with web development but I'd love to help!
 
