@@ -19,7 +19,7 @@ Route::get('/layout', function () {
     return view('classroom.index');
 });
 
-Route::get('/classroom/Staff', 'PageController@staff');
+Route::get('/classroom/staff', 'PageController@staff');
 
 Route::get('/classroom/{teacher}', 'PageController@show');
 

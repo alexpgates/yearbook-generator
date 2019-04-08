@@ -10,7 +10,7 @@
             $x = 1;
             $total = 1;
         ?>
-        <div class="col text-center"><img src="{{ asset('yearbook/Staff/'.$teacher->photo ) }}" style="width:100%;"><br><p>{{$teacher->prefix}} {{$teacher->last_name}}</p></div>
+        <div class="col text-center"><img src="{{ asset('yearbook/staff/'.$teacher->photo ) }}" style="width:100%;"><br><p>{{$teacher->prefix}} {{$teacher->last_name}}</p></div>
         @foreach($support as $sup)
             <div class="col text-center"><img src="{{ asset('yearbook/staff/'.$sup->photo ) }}" style="width:100%;"><br><p>{{$sup->prefix}} {{$sup->last_name}}</p></div>
         <?php
@@ -24,7 +24,7 @@
         @endforeach
 
         @foreach($students as $student)
-        <div class="col text-center"><img src="{{ asset('yearbook/'.$student->grade.'/'.$student->photo) }}" style="width:100%;"><br><p>{{$student->first_name}} {{$student->last_name}}</p></div>
+        <div class="col text-center"><img src="{{ asset('yearbook/'.$student->teacher.'/'.$student->photo) }}" style="width:100%;"><br><p>{{$student->first_name}} {{$student->last_name}}</p></div>
         <?php
             $x++;
             $total++;

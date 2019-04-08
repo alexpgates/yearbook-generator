@@ -47,6 +47,7 @@ class GenerateYearbook extends Command
         foreach($rooms as $room){
             if(!in_array($room->teacher_room, $completed_pages)){
                 $filename = str_slug($room->title.' '.$room->teacher_room);
+                //dd($filename);
                 Browsershot::url(env('APP_URL').'/classroom/'.$room->teacher_room)
                     ->setOption('format', 'Letter')
                     ->margins(8, 8, 8, 8)
